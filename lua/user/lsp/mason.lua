@@ -1,6 +1,9 @@
 local servers = {
 	"clangd",
 	"lua_ls",
+	"elixirls",
+	"pyright",
+	"clojure_lsp"
 }
 
 require("mason").setup({

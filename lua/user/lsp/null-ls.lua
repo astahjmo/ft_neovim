@@ -10,7 +10,7 @@ null_ls.setup({
 	debug = false,
 	sources = {
 		formatting.prettier.with({
-			filetypes = { "javascript", "typescript", "typescriptreact", "javascriptreact" },
+			filetypes = { "javascript", "typescript", "typescriptreact", "javascriptreact", "elixir-ls" },
 		}),
 		formatting.black.with({ extra_args = { "--fast" } }),
 		formatting.stylua,
